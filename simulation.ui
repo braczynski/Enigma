@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>simulation</class>
+ <widget class="QWidget" name="simulation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="Setup">
+   <property name="geometry">
+    <rect>
+     <x>89</x>
+     <y>13</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Setup</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="InputText">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>70</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="OutputText">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>210</y>
+     <width>191</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="encrypt">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>150</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Encrypt</string>
+   </property>
+  </widget>
+  <zorder>encrypt</zorder>
+  <zorder>Setup</zorder>
+  <zorder>InputText</zorder>
+  <zorder>OutputText</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
